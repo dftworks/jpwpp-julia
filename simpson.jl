@@ -1,4 +1,5 @@
-function simpson_log(y :: Vector{Float64}, r :: Vector{Float64}) :: Float64
+function simpson_log(y :: Vector{Float64}, r :: Vector{Float64})
+    :: Float64
     n = size(y)[1]
     dx = log((r[n]/r[1])) / (n-1.0)
     s = 0.0
