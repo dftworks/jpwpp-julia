@@ -83,4 +83,3 @@ vh_gshell_1d = Vector{Complex{Float64}}(undef, pwden.nshell)
 potential_hartree_g!(pwden.gshell, ρ_gshell_1d, vh_gshell_1d)
 
 sfact = compute_structure_factor(gvec.miller, atoms)
-println(sfact)
