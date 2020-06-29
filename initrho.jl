@@ -1,4 +1,4 @@
-include("simpson.jl")
+include("simpson_log.jl")
 
 function compute_rho_of_gshell(rhops::Vector{Float64}, rad::Vector{Float64},
                           gshell::Vector{Float64}, volume::Float64) ::Vector{Complex{Float64}}

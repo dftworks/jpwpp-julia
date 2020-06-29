@@ -1,5 +1,5 @@
 using Printf
-include("simpson.jl")
+include("simpson_log.jl")
 
 struct AtomPSPFHI
     zatom :: Float64
